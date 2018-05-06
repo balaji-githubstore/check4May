@@ -18,7 +18,8 @@ public class BaseTest {
 	@Test
 	public void testMagento() throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		//changes
+		//changes
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
